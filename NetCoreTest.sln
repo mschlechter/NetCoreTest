@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F424FAF1-D782-45C7-B9C0-0041C5EA9D93}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreTest.Web", "src\NetCoreTest.Web\NetCoreTest.Web.xproj", "{1BEBC19C-C82D-4EDC-AD0F-10D3B75AE6FF}"
