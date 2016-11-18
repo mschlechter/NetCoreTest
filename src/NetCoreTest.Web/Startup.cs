@@ -29,9 +29,11 @@ namespace NetCoreTest.Web
         app.UseDeveloperExceptionPage();
       }
 
+      // Add this to allow serving of static files
       app.UseDefaultFiles();
       app.UseStaticFiles();
 
+      // Add this to allow MVC controllers (this requires AddMvcCore in ConfigureServices)
       app.UseMvc();
 
     }
